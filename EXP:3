@@ -95,3 +95,20 @@ mysql> select * from faculty1;
 | 1      | chinni   | f      | 2004-04-20 | 2010-11-23 | 912345678 | 18      |
 +--------+----------+--------+------------+------------+-----------+---------+
 1 row in set (0.00 sec)
+mysql> update faculty1 set dob=19501108 where dob=20040420;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from faculty1;
++--------+----------+--------+------------+------------+-----------+---------+
+| fac_no | fac_name | gender | dob        | doj        | mobile_no | dept_no |
++--------+----------+--------+------------+------------+-----------+---------+
+| 1      | chinni   | f      | 1950-11-08 | 2010-11-23 | 912345678 | 18      |
++--------+----------+--------+------------+------------+-----------+---------+
+1 row in set (0.00 sec)
+
+mysql> delete from faculty1 where dob=19501108;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from faculty1;
+Empty set (0.00 sec)
