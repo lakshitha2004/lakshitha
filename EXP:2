@@ -1,0 +1,31 @@
+mysql> use student1;
+Database changed
+mysql> desc student1;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| reg_no    | int(3)      | YES  |     | NULL    |       |
+| name      | varchar(15) | YES  |     | NULL    |       |
+| gender    | char(1)     | YES  |     | NULL    |       |
+| dob       | date        | YES  |     | NULL    |       |
+| mobile_no | int(10)     | YES  |     | NULL    |       |
+| city      | varchar(15) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.03 sec)
+
+mysql> alter table student1 add primary key(city);
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc student1;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| reg_no    | int(3)      | YES  |     | NULL    |       |
+| name      | varchar(15) | YES  |     | NULL    |       |
+| gender    | char(1)     | YES  |     | NULL    |       |
+| dob       | date        | YES  |     | NULL    |       |
+| mobile_no | int(10)     | YES  |     | NULL    |       |
+| city      | varchar(15) | NO   | PRI |         |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.03 sec)
