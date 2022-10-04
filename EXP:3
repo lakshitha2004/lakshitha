@@ -1,0 +1,39 @@
+mysql> create database college;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use college;
+Database changed
+mysql> create table college(sno int(10),name char(15),regno int(10),branch char(10),age int(10));
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> desc college;
++--------+----------+------+-----+---------+-------+
+| Field  | Type     | Null | Key | Default | Extra |
++--------+----------+------+-----+---------+-------+
+| sno    | int(10)  | YES  |     | NULL    |       |
+| name   | char(15) | YES  |     | NULL    |       |
+| regno  | int(10)  | YES  |     | NULL    |       |
+| branch | char(10) | YES  |     | NULL    |       |
+| age    | int(10)  | YES  |     | NULL    |       |
++--------+----------+------+-----+---------+-------+
+5 rows in set (0.03 sec)
+
+mysql> insert into college(sno,name,regno,branch,age) values(1,'chinni',192124187,ai,25);
+ERROR 1054 (42S22): Unknown column 'ai' in 'field list'
+mysql>  insert into college(sno,name,regno,branch,age) values(1,'chinni',192124187,'ai',25);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into college values(2,'vicky',192120018,'bi',19);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into college values(3,'ram',191711342,'cse',40);
+Query OK, 1 row affected (0.00 sec)
+mysql> select * from college;
++------+--------+-----------+--------+------+
+| sno  | name   | regno     | branch | age  |
++------+--------+-----------+--------+------+
+|    1 | chinni | 192124187 | ai     |   25 |
+|    2 | vicky  | 192120018 | bi     |   19 |
+|    3 | ram    | 191711342 | cse    |   40 |
++------+--------+-----------+--------+------+
+3 rows in set (0.00 sec)
