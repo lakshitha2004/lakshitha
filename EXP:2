@@ -80,3 +80,17 @@ mysql> desc faculty1;
 | dept_no   | varchar(4)  | YES  |     | NULL    |       |
 +-----------+-------------+------+-----+---------+-------+
 7 rows in set (0.03 sec)
+
+mysql> alter table dept1 add primary key(dept_no);
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc dept1;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| dept_no   | varchar(4)  | NO   | PRI |         |       |
+| dept_name | varchar(15) | YES  |     | NULL    |       |
+| dept_head | varchar(4)  | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+3 rows in set (0.03 sec)
