@@ -20,7 +20,7 @@
 ![image](https://user-images.githubusercontent.com/113350595/193742312-856404d2-6e2a-4783-ad3e-a6a8a43c77a5.png)
 #### (v)
 ![image](https://user-images.githubusercontent.com/113350595/193743163-0e6b0a04-aafc-4c3b-a3b0-ac13a8387b1f.png)
-### EXP 3;
+### EXP 3&4;
 #### (i)
 ![image](https://user-images.githubusercontent.com/113350595/193766735-86eb5374-765b-4db9-98ee-005e429d6b10.png)
 #### (ii)
@@ -31,3 +31,10 @@
 ![image](https://user-images.githubusercontent.com/113350595/193774145-8f5b1f77-0c90-48eb-a04d-f94e9c1c179f.png)
 #### (v)
 ![image](https://user-images.githubusercontent.com/113350595/193775355-a0c756d3-3ad0-4ff7-839c-d6dbdea79105.png)
+#### (vi)
+![image](https://user-images.githubusercontent.com/113350595/193775920-39e205d1-a082-436d-a0e7-d804c8c6a716.png)
+![image](https://user-images.githubusercontent.com/113350595/193776088-d84039be-08f0-445f-8379-f8cf06f28184.png)
+![image](https://user-images.githubusercontent.com/113350595/193776200-3182f629-9add-4044-b1ff-d3748252a276.png)
+![image](https://user-images.githubusercontent.com/113350595/193776294-946c7048-dd5b-4d62-a4b5-d85a625de3ff.png)
+### EXP 4;
+#### (i)
