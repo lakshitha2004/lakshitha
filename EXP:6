@@ -1,0 +1,56 @@
+
+mysql> create database courses;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use courses;
+Database changed
+mysql> create table courses(courseno varchar(10),regno int(10),coursedesc char(15),scores int(10));
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> desc courses;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| courseno   | varchar(10) | YES  |     | NULL    |       |
+| regno      | int(10)     | YES  |     | NULL    |       |
+| coursedesc | char(15)    | YES  |     | NULL    |       |
+| scores     | int(10)     | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+4 rows in set (0.03 sec)
+
+mysql> insert into courses(courseno,regno,coursedesc,scores) values(COO1,192120014,'statistics',92);
+ERROR 1054 (42S22): Unknown column 'COO1' in 'field list'
+mysql>  insert into courses(courseno,regno,coursedesc,scores) values(c001,192120014,'statistics',92);
+ERROR 1054 (42S22): Unknown column 'c001' in 'field list'
+mysql>  insert into courses(courseno,regno,coursedesc,scores) values(co01,192120014,'statistics',92);
+ERROR 1054 (42S22): Unknown column 'co01' in 'field list'
+mysql> insert into courses(courseno,regno,coursedesc,scores) values('COO1',192120014,'statistics',92);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into courses values('COO1',192030018,'statistics',68);
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  insert into courses values('COO2',192120018,'programming',75);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into courses values('COO2',192120234,'programming',93);
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  insert into courses values('CO21',192125678,'dbms',59);
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  insert into courses values('CO21',196345678,'dbms',90);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from courses;
++----------+-----------+-------------+--------+
+| courseno | regno     | coursedesc  | scores |
++----------+-----------+-------------+--------+
+| COO1     | 192120014 | statistics  |     92 |
+| COO1     | 192030018 | statistics  |     68 |
+| COO2     | 192120018 | programming |     75 |
+| COO2     | 192120234 | programming |     93 |
+| CO21     | 192125678 | dbms        |     59 |
+| CO21     | 196345678 | dbms        |     90 |
++----------+-----------+-------------+--------+
+6 rows in set (0.01 sec)
