@@ -72,3 +72,15 @@ mysql> desc course1;
 | fac_no      | varchar(4)  | YES  |     | NULL    |       |
 +-------------+-------------+------+-----+---------+-------+
 6 rows in set (0.05 sec)
+mysql> use faculty1;
+Database changed
+mysql> desc faculty1;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| fac_no    | varchar(4)  | YES  |     | NULL    |       |
+| fac_name  | varchar(15) | YES  |     | NULL    |       |
+| gender    | char(1)     | YES  |     | NULL    |       |
+| dob       | date        | YES  |     | NULL    |       |
+| doj       | date        | YES  |     | NULL    |       |
+| mobile_no | int(10)     | YES  |     | NULL    |       |
