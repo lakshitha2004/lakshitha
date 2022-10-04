@@ -47,3 +47,28 @@ mysql> desc faculty1;
 | dept_no   | varchar(4)  | YES  |     | NULL    |       |
 +-----------+-------------+------+-----+---------+-------+
 7 rows in set (0.03 sec)
+mysql> use dept1;
+Database changed
+mysql> desc dept1;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| dept_no   | varchar(4)  | YES  |     | NULL    |       |
+| dept_name | varchar(15) | YES  |     | NULL    |       |
+| dept_head | varchar(4)  | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+3 rows in set (0.05 sec)
+mysql> use course1;
+Database changed
+mysql> desc course1;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| course_no   | varchar(3)  | YES  |     | NULL    |       |
+| course_desc | varchar(14) | YES  |     | NULL    |       |
+| course_type | char(1)     | YES  |     | NULL    |       |
+| sem_no      | char(1)     | YES  |     | NULL    |       |
+| hall_no     | varchar(4)  | YES  |     | NULL    |       |
+| fac_no      | varchar(4)  | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.05 sec)
