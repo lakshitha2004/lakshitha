@@ -94,3 +94,40 @@ mysql> desc dept1;
 | dept_head | varchar(4)  | YES  |     | NULL    |       |
 +-----------+-------------+------+-----+---------+-------+
 3 rows in set (0.03 sec)
+mysql> use course1;
+Database changed
+mysql> desc course1;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| course_no   | varchar(3)  | YES  |     | NULL    |       |
+| course_desc | varchar(14) | YES  |     | NULL    |       |
+| course_type | char(1)     | YES  |     | NULL    |       |
+| sem_no      | char(1)     | YES  |     | NULL    |       |
+| hall_no     | varchar(4)  | YES  |     | NULL    |       |
+| fac_no      | varchar(4)  | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.05 sec)
+
+mysql> alter table course1 add primary key(course_no);
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table course add check(semno>1&&semno<=6);
+ERROR 1146 (42S02): Table 'course1.course' doesn't exist
+mysql>  alter table course1 add check(semno>1&&semno<=6);
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc course1;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| course_no   | varchar(3)  | NO   | PRI |         |       |
+| course_desc | varchar(14) | YES  |     | NULL    |       |
+| course_type | char(1)     | YES  |     | NULL    |       |
+| sem_no      | char(1)     | YES  |     | NULL    |       |
+| hall_no     | varchar(4)  | YES  |     | NULL    |       |
+| fac_no      | varchar(4)  | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.03 sec)
