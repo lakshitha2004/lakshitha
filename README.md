@@ -24,3 +24,4 @@
 #### (i)
 ![image](https://user-images.githubusercontent.com/113350595/193766735-86eb5374-765b-4db9-98ee-005e429d6b10.png)
 #### (ii)
+![image](https://user-images.githubusercontent.com/113350595/193768466-a38469b3-e6ac-415e-8c22-2464060d8648.png)
