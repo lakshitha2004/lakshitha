@@ -101,3 +101,10 @@ mysql> select sum(scores) from courses;
 |         477 |
 +-------------+
 1 row in set (0.00 sec)
+mysql>  select coursedesc,count(regno) from courses;
++------------+--------------+
+| coursedesc | count(regno) |
++------------+--------------+
+| statistics |            6 |
++------------+--------------+
+1 row in set (0.00 sec)
