@@ -54,3 +54,13 @@ mysql> select * from courses;
 | CO21     | 196345678 | dbms        |     90 |
 +----------+-----------+-------------+--------+
 6 rows in set (0.01 sec)
+
+mysql> select courseno from courses where scores between 50 and 80;
++----------+
+| courseno |
++----------+
+| COO1     |
+| COO2     |
+| CO21     |
++----------+
+3 rows in set (0.01 sec)
