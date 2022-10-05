@@ -71,3 +71,10 @@ mysql> select courseno from courses where scores between 50 and 80;
 | CO21     |
 +----------+
 3 rows in set (0.01 sec)
+mysql> select max(scores),min(scores) from courses;
++-------------+-------------+
+| max(scores) | min(scores) |
++-------------+-------------+
+|          93 |          59 |
++-------------+-------------+
+1 row in set (0.00 sec)
