@@ -54,4 +54,6 @@
 ![image](https://user-images.githubusercontent.com/113350595/194111457-386bb56a-9c22-4b70-a48b-726bec557fac.png)
 #### (vi)
 ![image](https://user-images.githubusercontent.com/113350595/194113455-4dbbfecd-65f7-46d0-b929-239a2604229c.png)
+#### (vii)
+![image](https://user-images.githubusercontent.com/113350595/194114107-8127bf38-8f08-4b65-86f0-fe24f7105a88.png)
 
