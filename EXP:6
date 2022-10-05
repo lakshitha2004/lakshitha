@@ -32,6 +32,13 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql>  insert into courses values('COO2',192120018,'programming',75);
 Query OK, 1 row affected (0.00 sec)
+mysql>  select avg(scores) from courses;
++-------------+
+| avg(scores) |
++-------------+
+|     79.5000 |
++-------------+
+1 row in set (0.00 sec)
 
 mysql> insert into courses values('COO2',192120234,'programming',93);
 Query OK, 1 row affected (0.00 sec)
