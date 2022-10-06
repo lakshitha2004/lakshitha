@@ -1,0 +1,25 @@
+
+mysql> create view stud_views as select regno,name and dob from stu_view;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> select * from stud_views;
++-----------+--------------+
+| regno     | name and dob |
++-----------+--------------+
+| 192120018 |            0 |
+| 192124187 |            0 |
+| 192120016 |            0 |
++-----------+--------------+
+3 rows in set, 3 warnings (0.00 sec)
+
+mysql> create index regno on stu_view(regno);
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> show index from stu_view;
++----------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table    | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++----------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| stu_view |          1 | regno    |            1 | regno       | A         |           3 |     NULL | NULL   | YES  | BTREE      |         |               |
++----------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+1 row in set (0.00 sec)
