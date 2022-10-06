@@ -1,0 +1,17 @@
+
+mysql> select * from courses where scores>(select avg(scores) from courses);
++----------+-----------+-------------+--------+
+| courseno | regno     | coursedesc  | scores |
++----------+-----------+-------------+--------+
+| COO1     | 192120014 | statistics  |     92 |
+| COO2     | 192120234 | programming |     93 |
+| CO21     | 196345678 | dbms        |     90 |
++----------+-----------+-------------+--------+
+3 rows in set (0.00 sec)
+mysql> select courseno from courses where assesments>1;
++----------+
+| courseno |
++----------+
+| CO21     |
++----------+
+1 row in set (0.00 sec)
