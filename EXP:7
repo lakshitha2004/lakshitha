@@ -16,3 +16,13 @@ mysql>  select courseno,count(scores) from courses group by courseno;
 | COO2     |             2 |
 +----------+---------------+
 3 rows in set (0.00 sec)V
+
+mysql> select name,age from college1 order by regno;
++-------+------+
+| name  | age  |
++-------+------+
+| ram   |   40 |
+| vicky |   18 |
+| lucky |   23 |
++-------+------+
+3 rows in set (0.00 sec)
