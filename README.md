@@ -81,3 +81,5 @@
 ![image](https://user-images.githubusercontent.com/113350595/194357412-0dc317df-e4af-4baa-88f5-4e5d2dc7b953.png)
 #### (iii)
 ![image](https://user-images.githubusercontent.com/113350595/194357550-f6981310-f02a-421d-807b-6a76fd61409d.png)
+### EXP 10;
+![image](https://user-images.githubusercontent.com/113350595/194363878-30f4a9df-578a-49b5-8a44-98e93dcece53.png)
