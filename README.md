@@ -65,3 +65,8 @@
 ![image](https://user-images.githubusercontent.com/113350595/194252704-98113ac7-e565-4988-99c7-87401994af79.png)
 #### (iv)
 ![image](https://user-images.githubusercontent.com/113350595/194255284-7d18675f-3a6d-4d96-aef4-5fb19f2527af.png)
+### EXP 8;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194262242-5e2a8290-30b0-4e8b-8686-2a0af57197f3.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194262359-1b0ad6b7-b1de-40f8-b618-ff50256443ec.png)
