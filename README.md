@@ -56,4 +56,9 @@
 ![image](https://user-images.githubusercontent.com/113350595/194113455-4dbbfecd-65f7-46d0-b929-239a2604229c.png)
 #### (vii)
 ![image](https://user-images.githubusercontent.com/113350595/194114107-8127bf38-8f08-4b65-86f0-fe24f7105a88.png)
+### EXP 7;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194250260-a9cd077c-4042-41ca-a1e4-e32e04110923.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194250467-ff14016a-aaa2-4730-b0ae-efdb7ae6c759.png)
 
