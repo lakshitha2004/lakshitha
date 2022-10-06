@@ -26,3 +26,11 @@ mysql> select name,age from college1 order by regno;
 | lucky |   23 |
 +-------+------+
 3 rows in set (0.00 sec)
+
+mysql> select * from staffs order by dob;
++---------+-----------+--------+------+------+--------------+
+| staffno | staffname | gender | dob  | doj  | mobilenumber |
++---------+-----------+--------+------+------+--------------+
+|       1 | vijitha   | f      | 1974 | 1992 |    876594320 |
++---------+-----------+--------+------+------+--------------+
+1 row in set (0.00 sec)
