@@ -15,3 +15,21 @@ mysql> select courseno from courses where assesments>1;
 | CO21     |
 +----------+
 1 row in set (0.00 sec)
+
+mysql> select * from staffs order by doj limit 1;
++---------+-----------+--------+------+------+--------------+
+| staffno | staffname | gender | dob  | doj  | mobilenumber |
++---------+-----------+--------+------+------+--------------+
+|       1 | vijitha   | f      | 1974 | 1992 |    876594320 |
++---------+-----------+--------+------+------+--------------+
+1 row in set (0.00 sec)
+
+mysql> select courseno,scores from courses where scores>(select avg(scores) from courses) order by courseno;
++----------+--------+
+| courseno | scores |
++----------+--------+
+| CO21     |     90 |
+| COO1     |     92 |
+| COO2     |     93 |
++----------+--------+
+3 rows in set (0.00 sec)
