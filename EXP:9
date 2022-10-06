@@ -1,0 +1,28 @@
+
+mysql> select staffno,staffname,deptno,deptname from staffs;
++---------+-----------+--------+----------+
+| staffno | staffname | deptno | deptname |
++---------+-----------+--------+----------+
+|       1 | vijitha   |     98 | bio      |
+|       2 | lucky     |     86 | ai       |
++---------+-----------+--------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select name,marks,courseno from student2;
++-------+-------+----------+
+| name  | marks | courseno |
++-------+-------+----------+
+| ram   |     0 | COO4     |
+| vicky |     0 | COO8     |
+| lucky |     0 | COO6     |
++-------+-------+----------+
+3 rows in set (0.00 sec)
+
+mysql> select staffno,staffname,deptno,deptname from staffs;
++---------+-----------+--------+----------+
+| staffno | staffname | deptno | deptname |
++---------+-----------+--------+----------+
+|       1 | vijitha   |     98 | bio      |
+|       2 | lucky     |     86 | ai       |
++---------+-----------+--------+----------+
+2 rows in set (0.00 sec)
