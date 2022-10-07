@@ -110,4 +110,6 @@
 ### EXP 15;
 #### (i)
 ![image](https://user-images.githubusercontent.com/113350595/194602515-ceb8e134-210a-472d-9fed-01b1452125fd.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194628973-9c9cef4b-f509-4773-8910-2728d443d7c4.png)
 
