@@ -1,1 +1,200 @@
 
+mysql> create database schl;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use schl;
+Database changed
+mysql> create table schl;
+ERROR 1113 (42000): A table must have at least 1 column
+mysql> create table schl(regno int(10),name varchar(12),dept varchar(5),dob date,gender char(2),courseno varchar(5),age int(3),hallno int(5));
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> desc schl;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| regno    | int(10)     | YES  |     | NULL    |       |
+| name     | varchar(12) | YES  |     | NULL    |       |
+| dept     | varchar(5)  | YES  |     | NULL    |       |
+| dob      | date        | YES  |     | NULL    |       |
+| gender   | char(2)     | YES  |     | NULL    |       |
+| courseno | varchar(5)  | YES  |     | NULL    |       |
+| age      | int(3)      | YES  |     | NULL    |       |
+| hallno   | int(5)      | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+8 rows in set (0.03 sec)
+
+mysql> insert into schl values(912120,'nilima','ai',20001125,'f',15,22,201);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into schl values(912121,'salima','bio',20040420,'m',06,18,202);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into schl values(912122,'mohith','cse',20020515,'m',10,20,203);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into schl values(912123,'malini','it',19970525,'f',13,25,204);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from schl;
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912120 | nilima | ai   | 2000-11-25 | f      | 15       |   22 |    201 |
+| 912121 | salima | bio  | 2004-04-20 | m      | 6        |   18 |    202 |
+| 912122 | mohith | cse  | 2002-05-15 | m      | 10       |   20 |    203 |
+| 912123 | malini | it   | 1997-05-25 | f      | 13       |   25 |    204 |
++--------+--------+------+------------+--------+----------+------+--------+
+4 rows in set (0.00 sec)
+
+mysql> select name from schl where gender='f';
++--------+
+| name   |
++--------+
+| nilima |
+| malini |
++--------+
+2 rows in set (0.00 sec)
+
+mysql> use course;
+ERROR 1049 (42000): Unknown database 'course'
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| clss               |
+| college            |
+| college1           |
+| course1            |
+| courses            |
+| custlev            |
+| dept1              |
+| faculty            |
+| faculty1           |
+| mysql              |
+| performance_schema |
+| schl               |
+| staffs             |
+| stu                |
+| stu_info           |
+| stu_view           |
+| student            |
+| student1           |
+| student2           |
+| students           |
+| studs              |
+| test               |
++--------------------+
+23 rows in set (0.09 sec)
+
+mysql> use course1;
+Database changed
+mysql> select * from course1;
+Empty set (0.01 sec)
+
+mysql> use courses;
+Database changed
+mysql> select * from courses;
++----------+-----------+-------------+--------+------------+
+| courseno | regno     | coursedesc  | scores | assesments |
++----------+-----------+-------------+--------+------------+
+| COO1     | 192120014 | statistics  |     92 |       NULL |
+| COO1     | 192030018 | statistics  |     68 |       NULL |
+| COO2     | 192120018 | programming |     75 |       NULL |
+| COO2     | 192120234 | programming |     93 |       NULL |
+| CO21     | 192125678 | dbms        |     59 |       NULL |
+| CO21     | 196345678 | dbms        |     90 |       NULL |
+| CO21     | 192210018 | dbms        |     53 |          8 |
++----------+-----------+-------------+--------+------------+
+7 rows in set (0.03 sec)
+
+mysql> select regno from courses where courseno='COO1';
++-----------+
+| regno     |
++-----------+
+| 192120014 |
+| 192030018 |
++-----------+
+2 rows in set (0.00 sec)
+
+mysql> use staffs;
+Database changed
+mysql> select * from staffs;
++---------+-----------+--------+------+------+--------------+--------+----------+
+| staffno | staffname | gender | dob  | doj  | mobilenumber | deptno | deptname |
++---------+-----------+--------+------+------+--------------+--------+----------+
+|       1 | vijitha   | f      | 1974 | 1992 |    876594320 |     98 | bio      |
+|       2 | lucky     | f      | 1980 | 2000 |    817926506 |     86 | ai       |
++---------+-----------+--------+------+------+--------------+--------+----------+
+2 rows in set (0.01 sec)
+
+mysql> select staffname from staffs where doj<2014;
++-----------+
+| staffname |
++-----------+
+| vijitha   |
+| lucky     |
++-----------+
+2 rows in set (0.00 sec)
+
+mysql> use schl;
+Database changed
+mysql> select * from schl;
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912120 | nilima | ai   | 2000-11-25 | f      | 15       |   22 |    201 |
+| 912121 | salima | bio  | 2004-04-20 | m      | 6        |   18 |    202 |
+| 912122 | mohith | cse  | 2002-05-15 | m      | 10       |   20 |    203 |
+| 912123 | malini | it   | 1997-05-25 | f      | 13       |   25 |    204 |
++--------+--------+------+------------+--------+----------+------+--------+
+4 rows in set (0.00 sec)
+
+mysql> select dept from schl where halls=0;
+ERROR 1054 (42S22): Unknown column 'halls' in 'where clause'
+mysql> select dept from schl where hallno=0;
+Empty set (0.00 sec)
+
+mysql> select * from schl where name like'%sh';
+Empty set (0.00 sec)
+
+mysql>  select * from schl where name like'%ma';
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912120 | nilima | ai   | 2000-11-25 | f      | 15       |   22 |    201 |
+| 912121 | salima | bio  | 2004-04-20 | m      | 6        |   18 |    202 |
++--------+--------+------+------------+--------+----------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> select * from schl where name like'%sal';
+Empty set (0.00 sec)
+
+mysql> select * from schl where name like'sal%';
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912121 | salima | bio  | 2004-04-20 | m      | 6        |   18 |    202 |
++--------+--------+------+------------+--------+----------+------+--------+
+1 row in set (0.00 sec)
+
+mysql>  select * from schl where name like'ma%';
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912123 | malini | it   | 1997-05-25 | f      | 13       |   25 |    204 |
++--------+--------+------+------------+--------+----------+------+--------+
+1 row in set (0.00 sec)
+
+mysql> select * from schl where name=6;
+Empty set, 4 warnings (0.00 sec)
+
+mysql> select * from schl where name like'%th';
++--------+--------+------+------------+--------+----------+------+--------+
+| regno  | name   | dept | dob        | gender | courseno | age  | hallno |
++--------+--------+------+------------+--------+----------+------+--------+
+| 912122 | mohith | cse  | 2002-05-15 | m      | 10       |   20 |    203 |
++--------+--------+------+------------+--------+----------+------+--------+
+1 row in set (0.00 sec)
+
