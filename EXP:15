@@ -1,0 +1,15 @@
+
+mysql> CREATE PROCEDURE stu()
+    -> select * from stu;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> call stu();
++------+-------+----------+---------+
+| id   | name  | address  | subject |
++------+-------+----------+---------+
+|  101 | vicky | tirupati | python  |
+|  102 | lucky | chennai  | dbms    |
+|  103 | viji  | goa      | c       |
+|  104 | jashu | mumbai   | bioperl |
++------+-------+----------+---------+
+4 rows in set (0.00 sec)
