@@ -1,0 +1,42 @@
+mysql> use schl;
+Database changed
+mysql> desc schl;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| regno    | int(10)     | YES  |     | NULL    |       |
+| name     | varchar(12) | YES  |     | NULL    |       |
+| dept     | varchar(5)  | YES  |     | NULL    |       |
+| dob      | date        | YES  |     | NULL    |       |
+| gender   | char(2)     | YES  |     | NULL    |       |
+| courseno | varchar(5)  | YES  |     | NULL    |       |
+| age      | int(3)      | YES  |     | NULL    |       |
+| hallno   | int(5)      | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+8 rows in set (0.03 sec)
+
+mysql> create user lucky;
+Query OK, 0 rows affected (0.20 sec)
+
+mysql> grant all on schl to lucky;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> show grants for lucky;
++------------------------------------------------------+
+| Grants for lucky@%                                   |
++------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'lucky'@'%'                    |
+| GRANT ALL PRIVILEGES ON `schl`.`schl` TO 'lucky'@'%' |
++------------------------------------------------------+
+2 rows in set (0.00 sec)
+
+mysql> revoke all on schl from lucky;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show grants for lucky;
++-----------------------------------+
+| Grants for lucky@%                |
++-----------------------------------+
+| GRANT USAGE ON *.* TO 'lucky'@'%' |
++-----------------------------------+
+1 row in set (0.00 sec)
