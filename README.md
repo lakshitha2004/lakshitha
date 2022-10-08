@@ -130,4 +130,40 @@
 ![image](https://user-images.githubusercontent.com/113350595/194686134-9a0bbe46-7c8b-431c-a6ec-af9c98369218.png)
 #### (ii)
 ![image](https://user-images.githubusercontent.com/113350595/194686164-c923aa13-810f-4af5-b0a6-7c7efc3f7fde.png)
+### EXP 17;
+![image](https://user-images.githubusercontent.com/113350595/194688035-abb6aa3d-8472-47fe-b47e-6f1db5875ea5.png)
+### EXP 19;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194688085-22b30525-2cdb-49e5-b4bc-c997df7197ca.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194688264-174d66b3-8811-4727-9070-fe2643f69c0e.png)
+### EXP 20;
+![image](https://user-images.githubusercontent.com/113350595/194688374-e0db221e-35bc-45dc-8e60-86661aa6d78e.png)
+### EXP 22;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194688513-0273556b-fae3-479b-9fa8-ce985d5c851b.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194688562-49c125ff-5e5a-461d-a2aa-b509f9e71037.png)
+#### (iii)
+![image](https://user-images.githubusercontent.com/113350595/194688622-c1a12b36-e1c1-4b3b-9c4a-d049db868c9b.png)
+#### (iv)
+![image](https://user-images.githubusercontent.com/113350595/194688694-1fc27d08-9738-4f0c-b681-9f6088d188cd.png)
+### EXP 23;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194688733-28988cf2-8104-46c7-8878-e4fb4cc524d2.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194688747-d89b1131-8833-408a-ab6d-a07282b9c839.png)
+### EXP 24;
+#### (i)
+![image](https://user-images.githubusercontent.com/113350595/194688768-f456ad7b-f175-4971-bcb6-44436aa12c72.png)
+#### (ii)
+![image](https://user-images.githubusercontent.com/113350595/194688771-27266416-99c1-4023-afb2-d9b76be870d7.png)
+### EXP 25;
+![image](https://user-images.githubusercontent.com/113350595/194688828-77d4ceca-6374-4387-8d1c-a258d7fc9c2d.png)
+![image](https://user-images.githubusercontent.com/113350595/194688832-2751dae8-6ba1-440b-88ab-1164a5412b15.png)
+![image](https://user-images.githubusercontent.com/113350595/194688841-1cb0247a-6b09-4210-a8fd-092d081cf046.png)
+
+
+
+
 
