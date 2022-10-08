@@ -109,7 +109,7 @@
 ![image](https://user-images.githubusercontent.com/113350595/194684741-f63c4f79-f743-44b3-94b4-ae1d8e155b08.png)
 #### (ii)
 ![image](https://user-images.githubusercontent.com/113350595/194684759-035c83ab-655b-4aeb-8bf9-559f35de15ec.png)
-### EXP 14;
+### EXP 12;
 #### (i)
 ![image](https://user-images.githubusercontent.com/113350595/194684879-bbc57144-0ee3-4ef1-a29e-36ad19724146.png)
 #### (ii)
@@ -117,6 +117,8 @@
 ### EXP 13;
 ![image](https://user-images.githubusercontent.com/113350595/194594967-b8892cb3-74bd-4204-8e11-def1546d0918.png)
 ![image](https://user-images.githubusercontent.com/113350595/194595402-29a0c9eb-29a1-4571-b5a7-8d1e5816791a.png)
+### EXP 14;
+
 ### EXP 15;
 #### (i)
 ![image](https://user-images.githubusercontent.com/113350595/194602515-ceb8e134-210a-472d-9fed-01b1452125fd.png)
